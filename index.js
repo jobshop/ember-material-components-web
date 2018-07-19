@@ -22,6 +22,7 @@ const materialPackages = [
   { name: '@material/menu', css: true, js: true },
   { name: '@material/toolbar', css: true, js: true },
   { name: '@material/tabs', css: true, js: true },
+  { name: '@material/typography', css: true, js: false },
   { name: '@material/ripple', css: true, js: true },
   { name: '@material/linear-progress', css: true, js: true },
   { name: '@material/switch', css: true, js: false },
@@ -58,12 +59,11 @@ module.exports = {
     materialPackages.forEach(function(pkg) {
       const pkgBaseName = pkg.name.replace('@material/', '');
       if (pkg.js) {
-        app.import(
-          {
-            development: `vendor/ember-material-components-web/dist/mdc.${camelize(pkgBaseName)}.js`,
-            production: `vendor/ember-material-components-web/dist/mdc.${camelize(pkgBaseName)}.min.js`,
-          },
-          { using: [{ transformation: 'amd', as: pkg.name }] }
+        app.import({
+          development: `vendor/ember-material-components-web/dist/mdc.${camelize(pkgBaseName)}.js`,
+          production: `vendor/ember-material-components-web/dist/mdc.${camelize(pkgBaseName)}.min.js`,
+        }, {
+          using: [{ transformation: 'amd', as: pkg.name }] }
         );
       }
       if (pkg.css) {

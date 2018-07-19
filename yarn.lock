@@ -36,13 +36,13 @@
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@material/base/-/base-0.2.6.tgz#3003f3df2c06d172151d4160b8c8b2e6c65e7c01"
 
-"@material/button@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@material/button/-/button-0.5.0.tgz#a4382b8c4f1773c95020830318d566dffe8c4f4c"
+"@material/button@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@material/button/-/button-0.7.0.tgz#9c8d7fc29fcd574e0116e0008a3f32bd687b1685"
   dependencies:
-    "@material/elevation" "^0.1.11"
-    "@material/ripple" "^0.8.5"
-    "@material/theme" "^0.2.0"
+    "@material/elevation" "^0.1.12"
+    "@material/ripple" "^0.8.7"
+    "@material/theme" "^0.3.1"
     "@material/typography" "^0.3.0"
 
 "@material/card@0.1.0":
@@ -75,13 +75,13 @@
     "@material/theme" "^0.4.0"
     "@material/typography" "^0.3.0"
 
-"@material/elevation@0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.1.11.tgz#195815648697f2fbad20666a4c232dc9b6f1189b"
+"@material/elevation@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.1.12.tgz#213990b03668650099a71039e426370f87ef0ffd"
   dependencies:
-    "@material/animation" "^0.3.1"
+    "@material/animation" "^0.4.0"
 
-"@material/elevation@^0.1.0", "@material/elevation@^0.1.11", "@material/elevation@^0.1.13":
+"@material/elevation@^0.1.0", "@material/elevation@^0.1.11", "@material/elevation@^0.1.12", "@material/elevation@^0.1.13":
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.1.13.tgz#a38885f3caf4398ca6a7468c308887d70bd4605b"
   dependencies:
@@ -165,12 +165,12 @@
     "@material/selection-control" "^0.1.0"
     "@material/theme" "^0.2.0"
 
-"@material/ripple@0.8.6":
-  version "0.8.6"
-  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.8.6.tgz#039ec22937f78bcfefa330d3533c77852466d8d8"
+"@material/ripple@0.8.7":
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.8.7.tgz#40decee7077379a08f8c4f4b2d91872ed3d76f3b"
   dependencies:
     "@material/base" "^0.2.5"
-    "@material/theme" "^0.3.0"
+    "@material/theme" "^0.3.1"
 
 "@material/ripple@^0.8.5", "@material/ripple@^0.8.7", "@material/ripple@^0.8.8":
   version "0.8.8"
@@ -219,17 +219,17 @@
     "@material/theme" "^0.2.0"
     "@material/typography" "^0.3.0"
 
-"@material/theme@0.2.0", "@material/theme@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.2.0.tgz#f54a62e8bcd2a63818419c02f7ec61d9968eff07"
+"@material/theme@0.3.1", "@material/theme@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.3.1.tgz#6ff261ff72b3493a5cc6e746da3b472d072aa5a9"
 
 "@material/theme@^0.1.0":
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.1.7.tgz#d94a7c5099feae9dc318c639802327c7ae82e872"
 
-"@material/theme@^0.3.0", "@material/theme@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.3.1.tgz#6ff261ff72b3493a5cc6e746da3b472d072aa5a9"
+"@material/theme@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.2.0.tgz#f54a62e8bcd2a63818419c02f7ec61d9968eff07"
 
 "@material/theme@^0.4.0":
   version "0.4.0"
@@ -245,13 +245,13 @@
     "@material/theme" "^0.2.0"
     "@material/typography" "^0.3.0"
 
+"@material/typography@0.3.0", "@material/typography@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.3.0.tgz#f828c2d3215bfd66c58072709b4260c64125390a"
+
 "@material/typography@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.1.1.tgz#fb2e3437bd3284d39e9fb91485767ade6b2bd0c1"
-
-"@material/typography@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.3.0.tgz#f828c2d3215bfd66c58072709b4260c64125390a"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"

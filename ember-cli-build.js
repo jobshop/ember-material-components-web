@@ -3,16 +3,17 @@
 const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
-  let options = {
+  let app = new EmberAddon(defaults, {
     freestyle: {
       snippetSearchPaths: ['addon', 'tests/dummy/app'],
     },
-    // Add options here
-  };
-
-  options.vendorFiles = { 'jquery.js': null };
-
-  let app = new EmberAddon(defaults, options);
+    vendorFiles: {
+      'jquery.js': null
+    },
+    babel: {
+      sourceMaps: 'inline'
+    }
+  });
 
   /*
     This build file specifies the options for the dummy test app of this
