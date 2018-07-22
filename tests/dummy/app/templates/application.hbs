@@ -32,26 +32,42 @@
       </p>
     {{/freestyle-section}}
     {{#freestyle-section name="Buttons" as |section|}}
-      {{#freestyle-usage "flat" title="Flat Buttons"}}
-        {{#mdc-button}}Standard Button{{/mdc-button}}
-        {{#mdc-button disabled=true onclick=(action "alert" "Should not see this.")}}Disabled Button{{/mdc-button}}
-        {{#mdc-button secondary=true}}Secondary Button{{/mdc-button}}
-        {{#mdc-button outlined=true}}Outlined Button{{/mdc-button}}
-        {{#mdc-button onclick=(action "alert" "Action button clicked")}}Action Button{{/mdc-button}}
-        <form class="tiny-form" onsubmit={{action "alert" "Form Submitted"}}>
-          {{#mdc-button type="submit"}}Submit Button{{/mdc-button}}
-        </form>
+      {{#freestyle-usage "text" title="Text Buttons"}}
+        {{#mdc-button}}Default{{/mdc-button}}
+        {{#mdc-button disabled=true}}Disabled{{/mdc-button}}
+        {{#mdc-button}}
+          <i class="material-icons mdc-button__icon" aria-hidden="true">favorite</i>
+          Icon
+        {{/mdc-button}}
+        {{#mdc-button dense=true}}Dense{{/mdc-button}}
       {{/freestyle-usage}}
       {{#freestyle-usage "raised" title="Raised Buttons"}}
-        {{#mdc-button raised=true}}Raised Button{{/mdc-button}}
-        {{#mdc-button raised=true secondary=true}}Raised Secondary Button{{/mdc-button}}
+        {{#mdc-button raised=true}}Default{{/mdc-button}}
+        {{#mdc-button raised=true disabled=true}}Disabled{{/mdc-button}}
+        {{#mdc-button raised=true}}
+          <i class="material-icons mdc-button__icon" aria-hidden="true">favorite</i>
+          Icon
+        {{/mdc-button}}
+        {{#mdc-button raised=true dense=true}}Dense{{/mdc-button}}
+      {{/freestyle-usage}}
+      {{#freestyle-usage "unelevated" title="Unelevated Buttons"}}
+        {{#mdc-button unelevated=true}}Default{{/mdc-button}}
+        {{#mdc-button unelevated=true disabled=true}}Disabled{{/mdc-button}}
+        {{#mdc-button unelevated=true}}
+          <i class="material-icons mdc-button__icon" aria-hidden="true">favorite</i>
+          Icon
+        {{/mdc-button}}
+        {{#mdc-button unelevated=true dense=true}}Dense{{/mdc-button}}
       {{/freestyle-usage}}
 
-      {{#freestyle-usage "unelevated" title="Unelevated Buttons"}}
-        {{#mdc-button unelevated=true}}Unelevated Button{{/mdc-button}}
-        {{#mdc-button unelevated=true secondary=true}}Unelevated Secondary Button{{/mdc-button}}
-        {{#mdc-button unelevated=true compact=true}}Unelevated Compact Button{{/mdc-button}}
-        {{#mdc-button unelevated=true dense=true}}Unelevated Dense Button{{/mdc-button}}
+      {{#freestyle-usage "outlined" title="Outlined Buttons"}}
+        {{#mdc-button outlined=true}}Default{{/mdc-button}}
+        {{#mdc-button outlined=true disabled=true}}Disabled{{/mdc-button}}
+        {{#mdc-button outlined=true}}
+          <i class="material-icons mdc-button__icon" aria-hidden="true">favorite</i>
+          Icon
+        {{/mdc-button}}
+        {{#mdc-button outlined=true dense=true}}Dense{{/mdc-button}}
       {{/freestyle-usage}}
     {{/freestyle-section}}
     {{#freestyle-section name="Floating Action Buttons" as |section|}}
