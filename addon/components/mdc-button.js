@@ -28,7 +28,7 @@ export default Component.extend(MDCComponent, {
   /**
    * @type {Boolean}
    */
-  stroked: false,
+  outlined: false,
   /**
    * @type {Boolean}
    */
@@ -49,7 +49,7 @@ export default Component.extend(MDCComponent, {
     'unelevated:mdc-button--unelevated',
     'compact:mdc-button--compact',
     'dense:mdc-button--dense',
-    'stroked:mdc-button--stroked',
+    'outlined:mdc-button--outlined',
     'mdcClassNames',
   ],
   attributeBindings: ['disabled', 'type', 'style', ...events],

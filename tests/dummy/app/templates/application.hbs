@@ -36,7 +36,7 @@
         {{#mdc-button}}Standard Button{{/mdc-button}}
         {{#mdc-button disabled=true onclick=(action "alert" "Should not see this.")}}Disabled Button{{/mdc-button}}
         {{#mdc-button secondary=true}}Secondary Button{{/mdc-button}}
-        {{#mdc-button stroked=true}}Stroked Button{{/mdc-button}}
+        {{#mdc-button outlined=true}}Outlined Button{{/mdc-button}}
         {{#mdc-button onclick=(action "alert" "Action button clicked")}}Action Button{{/mdc-button}}
         <form class="tiny-form" onsubmit={{action "alert" "Form Submitted"}}>
           {{#mdc-button type="submit"}}Submit Button{{/mdc-button}}
