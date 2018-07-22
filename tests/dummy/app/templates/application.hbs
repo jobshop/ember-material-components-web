@@ -71,25 +71,24 @@
       {{/freestyle-usage}}
     {{/freestyle-section}}
     {{#freestyle-section name="Floating Action Buttons" as |section|}}
-      {{#freestyle-usage "fab-bind" title="bind actions"}}
-
-        {{#mdc-fab onclick=(action "alert" "Stop clicked")}}
-          <i class="material-icons">stop</i>
-        {{/mdc-fab}}
-      {{/freestyle-usage}}
-      {{#freestyle-usage "fab-plain" title="Plain"}}
-        {{#mdc-fab plain=true}}
+      {{#freestyle-usage "standard" title="Standard"}}
+        {{#mdc-fab}}
           <i class="material-icons">play_arrow</i>
-        {{/mdc-fab}}
-      {{/freestyle-usage}}
-      {{#freestyle-usage "fab-disabled" title="Disabled"}}
-        {{#mdc-fab disabled=true onclick=(action "alert" "Should not see this.")}}
-          <i class="material-icons">pause</i>
         {{/mdc-fab}}
       {{/freestyle-usage}}
       {{#freestyle-usage "fab-mini" title="Mini"}}
         {{#mdc-fab mini=true}}
           <i class="material-icons">replay</i>
+        {{/mdc-fab}}
+      {{/freestyle-usage}}
+      {{#freestyle-usage "extended" title="Extended"}}
+        {{#mdc-fab extended=true label="Play"}}
+          <i class="material-icons">play_arrow</i>
+        {{/mdc-fab}}
+      {{/freestyle-usage}}
+      {{#freestyle-usage "fab-bind" title="bind actions"}}
+        {{#mdc-fab onclick=(action "alert" "Stop clicked")}}
+          <i class="material-icons">stop</i>
         {{/mdc-fab}}
       {{/freestyle-usage}}
     {{/freestyle-section}}

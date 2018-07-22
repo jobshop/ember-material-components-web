@@ -20,13 +20,13 @@
   dependencies:
     "@glimmer/di" "^0.2.0"
 
-"@material/animation@0.34.0", "@material/animation@^0.34.0":
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.34.0.tgz#a99cc9dabf7d0179b4da9a0aaa1575c4d1513823"
-
 "@material/animation@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.3.1.tgz#229de6927d0590d6d6b20157d778d264ef02229a"
+
+"@material/animation@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.34.0.tgz#a99cc9dabf7d0179b4da9a0aaa1575c4d1513823"
 
 "@material/animation@^0.4.0", "@material/animation@^0.4.1":
   version "0.4.1"
@@ -94,14 +94,16 @@
     "@material/animation" "^0.34.0"
     "@material/theme" "^0.35.0"
 
-"@material/fab@0.3.16":
-  version "0.3.16"
-  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.3.16.tgz#8695249359d11cf75527e20fd6a3b7705efc5e15"
+"@material/fab@0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.37.1.tgz#d383a89c3b70d0848aad24f92b62bbf1c7da4d17"
   dependencies:
-    "@material/animation" "^0.3.1"
-    "@material/elevation" "^0.1.11"
-    "@material/ripple" "^0.8.5"
-    "@material/theme" "^0.2.0"
+    "@material/animation" "^0.34.0"
+    "@material/elevation" "^0.36.1"
+    "@material/ripple" "^0.37.1"
+    "@material/rtl" "^0.36.0"
+    "@material/theme" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
 "@material/form-field@0.2.14":
   version "0.2.14"
@@ -3394,8 +3396,8 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     is-extendable "^1.0.1"
 
 extend@^3.0.0, extend@~3.0.0, extend@~3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
 
 external-editor@^1.1.0:
   version "1.1.1"
@@ -7314,16 +7316,16 @@ temp@0.8.3:
     rimraf "~2.2.6"
 
 terser@^3.7.5:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-3.8.0.tgz#66a4f4f500d2c829faab840f318c49cc471d73ae"
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-3.8.1.tgz#cb70070ac9e0a71add169dfb63c0a64fca2738ac"
   dependencies:
     commander "~2.16.0"
     source-map "~0.6.1"
     source-map-support "~0.5.6"
 
 testem@^2.2.0:
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/testem/-/testem-2.8.2.tgz#0d51801cbcdfe411e2e24ae7e63e2eca779dfe89"
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/testem/-/testem-2.9.0.tgz#7ce11c11b4eec4192ec3d2ea7eaa216e08c34273"
   dependencies:
     backbone "^1.1.2"
     bluebird "^3.4.6"
