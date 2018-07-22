@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@material/animation": "0.34.0",
-    "@material/base": "0.2.5",
+    "@material/base": "0.35.0",
     "@material/button": "0.37.1",
     "@material/card": "0.2.0",
     "@material/checkbox": "0.23.0",
