@@ -9,6 +9,17 @@
 [![David](https://img.shields.io/david/secondstreet/ember-material-components-web.svg)](https://david-dm.org/secondstreet/ember-material-components-web)
 [![Contributors](https://img.shields.io/badge/all_contributors-7-brightgreen.svg)](#contributors)
 
+## Disclaimer
+This fork is just a way for me to learn more about Ember and Javascript. I'm not
+trying to be modest when I say I know not what I do.
+
+😃
+
+My goal is to upgrade this to the latest version of Ember. Once I do that I'll
+try to upgrade the individual @material requirements to their latest versions.
+I would like to keep all tests passing and also update the existing components
+demo pages to document all the things the official material docs do.
+
 `ember-material-components-web`, or MDC-Ember, is an Ember CLI addon that provides the Ember way to use [`material-components-web` (MDC-Web)](https://material.io/components/web/). It installs and uses the CSS and JavaScript directly from Google's packages, and provides components you can drop right into your application.
 
 Until proper documentation can be written, please refer to the extensive JSDoc comments in the addon/ directory.
